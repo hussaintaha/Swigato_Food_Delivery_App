@@ -12,7 +12,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import CartItemCard from './CartItemCard'
 import { useDispatch } from 'react-redux'
-import pizza from '../assests/pizza.png'
+// import pizza from '../assests/pizza.png'
 import { RiLogoutCircleRFill } from 'react-icons/ri'
 import { logout } from '../actions/auth'
 const LeftSide = ({ data, show }) => {

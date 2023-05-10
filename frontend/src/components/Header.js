@@ -6,7 +6,7 @@ import { MdNotifications } from 'react-icons/md'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { searchProducts, showSideBar } from '../actions'
-import zoomy from '../assests/zoomy.png'
+// import zoomy from '../assests/zoomy.png'
 import Spinner from './Spinner'
 const Header = ({ data, show }) => {
     const [name, setName] = useState('')
