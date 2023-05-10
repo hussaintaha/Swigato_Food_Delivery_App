@@ -6,7 +6,7 @@ import { MdNotifications } from 'react-icons/md'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { searchProducts, showSideBar } from '../actions'
-// import zoomy from '../assests/zoomy.png'
+
 import Typewriter from "typewriter-effect"
 import Spinner from './Spinner'
 const Header = ({ data, show }) => {
@@ -39,7 +39,6 @@ const Header = ({ data, show }) => {
                     <div className="burger" onClick={() => dispatch(showSideBar(true))}>
                         <HiMenuAlt1 />
                     </div>
-                    {/* <Link to="/"><img src={zoomy} alt="logo" /></Link> */}
                     <Link to="/"><h1>Swigato</h1></Link>
                 </div>
                 {show && <Link to="/add-product"> <button style={{ marginRight: "10px" }}>Add Product</button></Link>}

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'https://zoomy-1ot3.onrender.com',
+  baseURL: 'URL where your backend is hosted.',
 });
 
 //"start": "node ./backend/server.js",
