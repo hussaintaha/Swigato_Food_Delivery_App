@@ -19,7 +19,7 @@ const Search = () => {
     useEffect(()=>{
       dispatch(searchProducts(query))
     },[query])
- console.log(data);
+ console.log("ff",data);
   return (
       <>
       {/* <SideBar/> */}

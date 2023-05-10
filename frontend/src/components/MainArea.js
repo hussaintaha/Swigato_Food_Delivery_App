@@ -184,7 +184,7 @@ const MainArea = () => {
                 <div class="container flex">
                     <div class="box">
                         <h3>Easy Order</h3>
-                        <ion-icon name="timer-o   <Section/>utline"></ion-icon>
+                        <ion-icon name="timer-outline"></ion-icon>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
                             non?
@@ -220,9 +220,9 @@ const MainArea = () => {
                     </div>
                     <div class="text">
                         <div class="secondary">About Our Restaurant</div>
-                        <h2 class="primary">150+</h2>
+                        <h2 class="primary">250+</h2>
 
-                        <h3 class="tertiary">Our Delicious Food</h3>
+                        <h3 class="tertiary">Best in service</h3>
 
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia

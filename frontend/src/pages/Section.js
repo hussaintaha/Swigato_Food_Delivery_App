@@ -10,9 +10,16 @@ const Section = () => {
       <div class="section flex" id="hero-section">
         <div class="text">
           <h1 class="primary">
-            It's Not Just Food, <br />
-            It's an <span>Experience</span>
+            Nothing Brings People Together <br />
+            Like Good <span style={{fontWeight:"bold"}}>Food</span>
           </h1>
+           <Typewriter
+                    options={{
+                        strings: `Use coupon FIRST500 and get upto 500 Rs. off on your first order.`,
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
 
           <p class="tertiary">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa,

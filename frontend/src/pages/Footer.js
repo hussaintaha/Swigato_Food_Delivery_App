@@ -39,7 +39,7 @@ const Footer = () => {
 
             <p>
               WORKING HOURS <br />
-              <span>Mon-sat 10:00pm - 7:00pm</span>
+              <span>Mon-sat 10:00am - 7:00pm</span>
             </p>
           </div>
         </div>

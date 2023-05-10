@@ -145,6 +145,7 @@ nav ul li a {
   width: 60%;
   height: auto;
   display: block;
+  border-radius: 20px;
 }
 
 #hero-section .text {
